@@ -113,7 +113,7 @@ img {
 .experiences .card-section {
     display: flex;
     gap: 2rem;
-    justify-content: space-between;
+    justify-content: center;
 }
 .experiences .card-section > * {
     background-color: white;
