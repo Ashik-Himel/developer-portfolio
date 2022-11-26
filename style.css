@@ -113,7 +113,7 @@ img {
 .experiences .card-section {
     display: flex;
     gap: 2rem;
-    justify-content: center;
+    justify-content: left;
 }
 .experiences .card-section > * {
     background-color: white;
@@ -122,10 +122,12 @@ img {
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.4);
 }
 .experiences .card-1 {
-    border-left: 5px solid tomato;
+    border-left: 5px solid transparent;
+    border-image: linear-gradient(tomato, yellow) 1 stretch;
 }
 .experiences .card-2 {
-    border-left: 5px solid blue;
+    border-left: 5px solid transparent;
+    border-image: linear-gradient(blue, deepskyblue) 1 stretch;
 }
 .experiences .card-section h3 {
     color: var(--primary-color);
